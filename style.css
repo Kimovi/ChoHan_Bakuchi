@@ -1,0 +1,13 @@
+* {
+    background-color: rgb(189, 171, 196);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  * *::before,
+  *::after {
+    box-sizing: inherit;
+  }

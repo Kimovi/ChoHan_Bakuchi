@@ -1,0 +1,36 @@
+<html>
+    <head></head>
+    <body>
+        <header>
+            <h1>ChoHan Bakuchi is Japanese dice game</h1>
+            <link type="text/css" rel="stylesheet" href="style.css">
+        </header>
+
+        <div class="wrapper clearfix">
+            <div class="player-0-panel active">
+                <div class="player-name" id="name-0">Player 1（相手아이테）</div>
+                <div class="player-score" id="score-0">0<span>円</span></div>
+                </div>
+            </div>
+            
+            <div class="player-1-panel">
+                <div class="player-name" id="name-1">Player 2（あなた아나타）</div>
+                <div class="player-score" id="score-1">0<span>円</span></div>
+
+                </div>
+            </div>
+            
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            
+            <label for="evenorodd">Choose even or odd:</label>
+            <select name="evenorodd" id="evenorodd">
+                <option value="even">even</option>
+                <option value="odd">odd</option>
+            </select>
+            <img src="dice-5.png" alt="Dice" class="dice">
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
