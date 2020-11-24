@@ -36,3 +36,6 @@ function checkWinner () {
 document.querySelector(".btn-new").addEventListener('click', function reSet(){
     //If user clicks 'new game' then reset score 
 });
+
+
+//Hi Hi 
