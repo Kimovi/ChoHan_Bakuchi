@@ -17,25 +17,21 @@ document.querySelector(".btn-roll").addEventListener('click', function rollDice(
     diceDOM1.src = 'dice'+ dice1+'.png';
 
     score = dice0 + dice1;
-    if(score % 2 === 0) {evenOdd = 2;} else {evenOdd =1;}
-    checkWinner();
+    if(score % 2 === 0 && evenOdd == 2) {
+        console.log('You are right ')
+    } else { 
+        console.log('You are wrong ');
+    }
+    
 });
 
-function checkWinner () {
-    // check User input Even or Odd?
-    document.querySelector(".even").addEventListener('onclick', function winner () {
-        if(evenOdd === 2) {
-            console.log('you are right')
-        }
-    });
+document.querySelector(".even").addEventListener('click', evenOdd = 2);
+document.querySelector(".odd").addEventListener('click', evenOdd =1);
     // check dice total
     // compare User input and dice total 
     // If User guessed dice total number correctly => User wins the game 
-};
+
 
 document.querySelector(".btn-new").addEventListener('click', function reSet(){
     //If user clicks 'new game' then reset score 
 });
-
-
-//Hi Hi 
