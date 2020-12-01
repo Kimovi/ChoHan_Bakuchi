@@ -16,7 +16,7 @@ body {
     url("background.jpg");
   background-size: cover;
   background-position: center;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 25px;
   position: relative;
   height: 100vh;
@@ -25,17 +25,17 @@ body {
 }
 
 h1 {
-  margin-top : 50px;
-  color : rgb(219, 136, 149);
+  margin-top: 50px;
+  color: rgb(219, 136, 149);
   text-shadow: 2px 2px #924f4f;
 }
 .flex {
   display: flex;
-  justify-content: space-around	;
+  justify-content: space-around;
   margin-bottom: 20px;
 }
 
-.flex1{
+.flex1 {
   display: flex;
   justify-content: center;
 }
@@ -51,7 +51,7 @@ h1 {
 }
 
 button {
-  background-color:#c3829e	; /* Green */
+  background-color: #c3829e; /* Green */
   border: none;
   border-radius: 20px;
   color: white;
@@ -60,9 +60,13 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-bottom : 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
 }
 
+button:hover {
+  background-color: tomato;
+}
 .wrapper {
   width: 1000px;
   position: absolute;
@@ -70,7 +74,10 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
-  background-color:rgba(255, 0, 0, 0.2);
+  background-color: rgba(255, 0, 0, 0.2);
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.description {
+  font-size: 16px;
 }
