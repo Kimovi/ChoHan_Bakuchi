@@ -9,24 +9,23 @@
 }
 /* background image */
 body {
-  background-image: linear-gradient(
-      rgba(62, 20, 20, 0.4),
-      rgba(62, 20, 20, 0.4)
-    ),
-    url("background.jpg");
-  background-size: cover;
-  background-position: center;
+  background: rgb(240, 137, 137);
+  background: radial-gradient(
+    circle,
+    rgba(240, 137, 137, 1) 0%,
+    rgba(217, 230, 126, 0.8048261540944502) 100%
+  );
   font-family: "Josefin Sans", sans-serif;
   font-size: 25px;
   position: relative;
   height: 100vh;
-  color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.685);
   text-align: center;
 }
 
 h1 {
   margin-top: 50px;
-  color: rgb(219, 136, 149);
+  color: #eee;
   text-shadow: 2px 2px #924f4f;
 }
 .flex {
@@ -51,7 +50,7 @@ h1 {
 }
 
 button {
-  background-color: #c3829e; /* Green */
+  background-color: tomato;
   border: none;
   border-radius: 20px;
   color: white;
@@ -65,13 +64,15 @@ button {
 }
 
 button:hover {
-  background-color: tomato;
+  background-color: #ffd47e;
+  color: rgba(0, 0, 0, 0.801);
 }
+
 .wrapper {
-  width: 1000px;
+  max-width: 1000px;
   display: inline-block;
   overflow: hidden;
-  background-color: rgba(255, 0, 0, 0.2);
+  /* border: 3px solid white; */
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 10px;
@@ -90,12 +91,12 @@ footer {
 
 .fa {
   font-size: 20px;
-  color: white;
+  color: tomato;
   width: 20px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
 }
 .fa:hover {
-  color: palevioletred;
+  color: #ffd47e;
 }
