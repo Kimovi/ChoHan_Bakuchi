@@ -79,14 +79,14 @@ button:hover {
 }
 
 .description {
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 10px;
   padding: 10px;
 }
 
 footer {
   font-size: 20px;
-  margin: 10px;
+  padding: 10px;
 }
 
 .fa {
@@ -99,4 +99,22 @@ footer {
 }
 .fa:hover {
   color: #ffd47e;
+}
+
+.player-1-panel {
+  background-color: #ffec7e;
+  border-radius: 30px;
+  width: 250px;
+  padding: 10px;
+}
+
+.player-0-panel {
+  background-color: #ffec7e;
+  border-radius: 30px;
+  width: 250px;
+  padding: 10px;
+}
+
+.footer p {
+  display: inline;
 }
