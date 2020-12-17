@@ -70,7 +70,6 @@ button:hover {
 
 .wrapper {
   max-width: 1000px;
-  display: inline-block;
   overflow: hidden;
   /* border: 3px solid white; */
   padding-top: 20px;
@@ -117,4 +116,35 @@ footer {
 
 .footer p {
   display: inline;
+}
+
+span {
+  display: inline;
+}
+
+.player-score{
+  display: inline;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+  body {
+    font-size: 15px;
+  }
+  .description {
+    font-size: 12px;
+  }
+  footer {
+    font-size: 10px;
+  }
+  .fa{
+    font-size: 10px;
+  }
+
+  .player-1-panel {
+    margin-left: 2px;
+  }
+  
 }
