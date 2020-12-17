@@ -71,10 +71,10 @@ button:hover {
 .wrapper {
   max-width: 1000px;
   overflow: hidden;
-  /* border: 3px solid white; */
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 10px;
+  display: inline;
 }
 
 .description {
@@ -147,4 +147,7 @@ span {
     margin-left: 2px;
   }
   
+  .wrapper{
+    display: block;
+  }
 }
